@@ -6,7 +6,8 @@
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f4f6f8;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #8fc5ff 0%, #3f7fc2 35%, #020814 100%);
   line-height: 1.6;
 }
 
@@ -67,7 +68,7 @@ body {
 
 /* Hero Section Styles */
 .hero {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: transparent;
   color: white;
   padding: 120px 2rem 80px;
   text-align: center;
@@ -114,7 +115,7 @@ body {
 /* Demo Section Styles */
 .demo-section {
   padding: 60px 2rem;
-  background-color: #f4f6f8;
+  background: transparent;
   min-height: 60vh;
   display: flex;
   justify-content: center;
@@ -141,6 +142,14 @@ h2 {
   margin-bottom: 30px;
   color: #555;
   font-size: 1.1rem;
+}
+
+#output {
+  margin-bottom: 18px;
+}
+
+#fetch-btn {
+  margin-top: 12px;
 }
 
 button {
